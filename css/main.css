@@ -1,0 +1,137 @@
+
+    *{
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    html {
+    scroll-behavior: smooth; 
+    }
+    body > header{
+        padding: 16px 0;
+        background-color: #990b97;
+    }
+    header li{
+    display: inline;
+    }
+    header li a{
+        color: antiquewhite;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        margin: 16px;
+
+    }
+    header .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header .container h1{
+        color: antiquewhite;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 16px;
+
+    }
+    .container{
+        width: 1440px;
+        margin: 0 auto 0 auto;
+    }
+    .container h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold
+    }
+    section{
+        padding: 16px;
+    }
+    section h2 , .article article{
+        margin-bottom: 16px;
+    }
+    .article{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .article article img {
+    width: 400px;
+    height: 236px;  
+    } 
+    .article article h3{
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .article article{
+        width: 30%;
+    }
+    
+
+    .article article a:hover{
+        text-decoration: underline;
+    }
+    .article article p{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    article > p{
+        text-align: justify;          
+        text-justify: inter-word;     
+        line-height: 1.6;             
+        max-width: 65ch;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;              
+    }
+    
+    #SportsTitle {
+        color: rgb(255, 122, 0);font-family: Arial, Helvetica, sans-serif; font-weight: bold;
+    }
+    #sports{
+        background-color: rgba(40, 167, 69, 0.1);
+    }
+    #sports .article article a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: rgb(255,122,0);
+        font-weight: bold
+    }
+    #EconomyTitle { 
+        color: rgb(0, 87, 184); font-family: Arial, Helvetica, sans-serif; font-weight: bold
+    }
+    #economy {
+        background-color: rgba(47, 47, 47,0.1)
+    }
+    #economy .article article a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: rgb(0,87,184);
+        font-weight: bold
+    }
+    #GamesTitle { 
+        color: rgb(122, 63, 255); 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-weight: bold
+    }
+    #games{
+        background-color: rgba(0, 229, 255,0.1);
+    }
+    #games .article article a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: rgb(122,63,255);
+        font-weight: bold
+    }
+    #GastronomyTitle {
+        color: rgb(230, 57, 70); 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-weight: bold
+    }
+    #gastronomy{
+        background-color: rgba(255, 183, 3,0.1);
+    }
+    #gastronomy .article article a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: rgb(230,57,70);
+        font-weight: bold;
+    }
+    

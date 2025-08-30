@@ -6,23 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portal de notícias</title>
     <link rel="stylesheet" href="./main.css" />
-    <style>
-    html {
-    scroll-behavior: smooth; 
-    }
-    img {
-  width: 300px;   /* largura fixa */
-  height: 200px;  /* altura fixa */
-    }   
-    #SportsTitle { color: #1abc9c; }
-    #EconomyTitle { color: #3498db; }
-    #GamesTitle { color: #9b59b6; }
-    #GastronomyTitle { color: #e74c3c; }
-</style>
 </head>
 <body>
     <header>
-        <h1>Meu portal de notícias</h1>
+        <div class="container">
+            <h1>Meu portal de notícias</h1>
         <nav>
             <ul>
                 <li>
@@ -39,10 +27,13 @@
                 </li>
             </ul>
         </nav>
+        </div>
     </header>
-    <section id="sports">
+    <div class="container">
+            <section id="sports">
         <h2 id="SportsTitle">Esportes</h2>
-        <article>
+        <div class="article">
+            <article>
             <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
             <header>
                 <time>13/07/2022 às 12:35</time>
@@ -86,10 +77,14 @@
             </p>
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
+        </div>
     </section>
-    <section id="economy">
+    </div>
+    <div class="container">
+        <section id="economy">
         <h2 id="EconomyTitle">Economia</h2>
-        <article>
+        <div class="article">
+            <article>
             <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
             <header>
                 <time>13/07/2022 às 12:35</time>
@@ -122,10 +117,14 @@
             </p>
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
+        </div>
     </section>
-    <section id="games">
+    </div>
+    <div class="container">
+        <section id="games">
         <h2 id="GamesTitle">Games</h2>
-        <article>
+        <div class="article">
+            <article>
             <img src="./imagens/DK_Bonanza.jpg" alt="Capa Donkey Kong Bonanza" />
             <header>
                 <time>30/08/2025 às 14:35</time>
@@ -158,10 +157,14 @@
             </p>
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
+        </div>
     </section>
+    </div>
+    <div class="container">
     <section id="gastronomy">
         <h2 id="GastronomyTitle">Gastronomia</h2>
-        <article>
+        <div class="article">
+            <article>
             <img src="./imagens/HoneyDeuce.jpg" alt="Honey Deuce" />
             <header>
                 <time>30/08/2025 às 14:35</time>
@@ -194,6 +197,8 @@
             </p>
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
+        </div>
     </section>
+    </div>
 </body>
 </html>
